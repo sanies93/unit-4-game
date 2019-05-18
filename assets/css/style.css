@@ -1,0 +1,19 @@
+body {
+    color: white;
+}
+
+.backgroundImage {
+    background-image: url("../images/crystals.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    opacity: 0.5;
+    font-family: 'Fredericka the Great', cursive;
+    color: darkblue;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
