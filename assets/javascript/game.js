@@ -12,7 +12,7 @@ function restart() {
     total = 0;
     $("#total-score").html("<h2>" + total + "</h2>");
     randNum = Math.floor(Math.random() * 102) + 19;
-    $("#random-number").html("<h2>" + randNum + "</h2>");
+    $("#random-number").html("<h1>" + randNum + "</h1>");
     diamondVal = Math.floor(Math.random() * 12) + 1;
     rubyVal = Math.floor(Math.random() * 12) + 1;
     sapphireVal = Math.floor(Math.random() * 12) + 1;
@@ -45,7 +45,7 @@ $(document).ready(function () {
 
 
     $("#total-score").html("<h2>" + total + "</h2>");
-    $("#random-number").html("<h2>" + randNum + "</h2>");
+    $("#random-number").html("<h1>" + randNum + "</h1>");
 
     $("#diamond").on("click", function () {
 
