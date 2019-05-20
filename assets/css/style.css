@@ -1,20 +1,29 @@
-body {
-    color: white;
-}
-
 .backgroundImage {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+body {
+    color: darkblue;
 }
 
 .header {
     font-family: 'Fredericka the Great', cursive;
     font-size: 72px;
+    color: darkred;
 }
 
 p {
     font-family: 'Raleway', sans-serif;
+}
+
+h2 { 
+    color: darkgreen;
+}
+
+#random-number {
+    color: darkgreen;
 }
 
 .align {

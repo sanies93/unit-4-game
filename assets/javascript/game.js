@@ -35,7 +35,7 @@ function checkNumbers() {
         losses++;
         console.log(losses);
         $("#wins-loses").html("<h2>You lost!</h2>");
-        $("#losses").html("<h3>Losses: " + losses + "</h3>");
+        $("#losses").html("<h2>Losses: " + losses + "</h2>");
         restart();
     }
 
