@@ -41,6 +41,11 @@ function checkNumbers() {
 
 }
 
+function result() {
+    $("#total-score").html("<h2>" + total + "</h2>");
+    checkNumbers();
+}
+
 $(document).ready(function () {
 
 
@@ -50,36 +55,28 @@ $(document).ready(function () {
     $("#diamond").on("click", function () {
 
         total += diamondVal;
-        $("#total-score").html("<h2>" + total + "</h2>");
-        checkNumbers();
-        console.log(total);
+        result();
 
     });
 
     $("#ruby").on("click", function () {
 
         total += rubyVal;
-        $("#total-score").html("<h2>" + total + "</h2>");
-        checkNumbers();
-        console.log(total);
+        result();
 
     });
 
     $("#sapphire").on("click", function () {
 
         total += sapphireVal;
-        $("#total-score").html("<h2>" + total + "</h2>");
-        checkNumbers();
-        console.log(total);
+        result();
 
     });
 
     $("#emerald").on("click", function () {
 
         total += emeraldVal;
-        $("#total-score").html("<h2>" + total + "</h2>");
-        checkNumbers();
-        console.log(total);
+        result();
 
     });
 
